@@ -1,5 +1,3 @@
-Here's a cleaner and more concise **README.md** without the **Results Summary** or **Project Structure** sections.
-
 # 🌸 Iris Flower Classification using Machine Learning
 
 ## 📌 Project Overview
