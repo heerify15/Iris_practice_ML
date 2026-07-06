@@ -1,0 +1,10 @@
+     Feature                                       Description
+1. SepalLengthCm--------------------------------Length of sepal (cm)
+
+2. SepalWidthCm---------------------------------Width of sepal (cm)
+
+3. PetalLengthCm--------------------------------Length of petal (cm)
+
+4. PetalWidthCm---------------------------------Width of petal (cm)
+
+5. Species (Target)-----------------------------Iris-setosa, Iris-versicolor, Iris-virginica

@@ -1,0 +1,52 @@
+Model Performance Summary Report
+
+1. Overall Performance Comparison
+             Model	        Accuracy	Precision (Macro Avg)	Recall (Macro Avg)	F1-Score (Macro Avg)	Ranks
+(i)   Logistic Regression	 98.00%	               98.11%	             98.00%	              98.00%	          1
+(ii)  Naive Bayes	         96.00%	               96.00%	             96.00%	              96.00%	          2
+(iii) k-Nearest Neighbors (kNN)	 95.33%	               95.34%	             95.33%	              95.33%	          3
+
+2. Class-wise Performance Comparison
+(i)   Setosa
+             Model	Precision	Recall	F1-Score
+A) Logistic Regression	  1.000	         1.000	  1.000
+B) Naive Bayes	          1.000	         1.000	  1.000
+C) kNN	                  1.000	         1.000	  1.000
+
+(ii)  Versicolor
+             Model	Precision	Recall	F1-Score
+A) Logistic Regression	  1.000	         0.940	  0.969
+B) Naive Bayes	          0.940	         0.940	  0.940
+C) kNN	                  0.922	         0.940	  0.931
+
+(iii) Virginica
+             Model	Precision	Recall	F1-Score
+A) Logistic Regression	  0.943	         1.000	  0.971
+B) Naive Bayes	          0.940	         0.940	  0.940
+C) kNN	                  0.939	         0.920	  0.929
+
+3. Key Observations
+      Observation	                   Finding
+A) Best Overall Model-----------------Logistic Regression
+B) Highest Accuracy-------------------98.00%
+C) Best Precision---------------------Logistic Regression (98.11%)
+D) Best Recall	Logistic--------------Regression (98.00%)
+E) Best F1-Score----------------------Logistic Regression (98.00%)
+F) Perfect Classification of Setosa---All three models
+G) Most Challenging Classes-----------Versicolor and Virginica
+H) Most Balanced Model----------------Logistic Regression
+
+Conclusion
+The performance of Logistic Regression, k-Nearest Neighbors (kNN), and Gaussian Naive Bayes was evaluated on the Iris dataset using accuracy, precision, recall, and F1-score.
+
+Logistic Regression achieved the best overall performance with an accuracy of 98%, outperforming the other two models across nearly all evaluation metrics. It correctly classified almost all samples and demonstrated excellent generalization, making it the most suitable classifier for this dataset.
+Gaussian Naive Bayes achieved an accuracy of 96%, providing balanced and consistent performance across all three classes. Although it relies on the assumption of feature independence, it performed well on the Iris dataset.
+k-Nearest Neighbors (kNN) obtained an accuracy of 95.33%. While it perfectly classified the Setosa class, it showed slightly lower performance for Versicolor and Virginica due to the overlap between these two species.
+
+All three models classified the Setosa class with 100% precision, recall, and F1-score, indicating that it is easily distinguishable from the other classes. Most of the classification errors occurred between Versicolor and Virginica, whose feature distributions overlap.
+
+Overall Ranking:
+
+🥇 Logistic Regression (98.00%)
+🥈 Gaussian Naive Bayes (96.00%)
+🥉 k-Nearest Neighbors (95.33%)
