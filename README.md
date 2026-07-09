@@ -55,7 +55,7 @@ Below is the layout of the repository and the naming conventions used for the Ir
 ├── Dataset/
 │   ├── iris.csv
 │   └── dataset_description.txt
-├── Notebook
+├── Notebook/
 │   └── iris_flower.ipynb
 │   └── conclusion.txt              
 ├── Output/
