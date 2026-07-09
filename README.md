@@ -48,6 +48,22 @@ The project includes data preprocessing, feature scaling, hyperparameter tuning 
 
 ---
 
+## 📁 Project Structure
+
+Below is the layout of the repository and the naming conventions used for the Iris classification project:
+``` text
+├── Dataset/
+│   ├── iris.csv
+│   └── dataset_description.txt
+├── Notebook
+│   └── iris_flower.ipynb                 
+├── Output/
+│   ├── class_report_filename.jpg         # Classification Report
+│   ├── conf_matrix_filename.jpg          # Confusion Matrix
+└── README.md                            
+```
+
+---
 
 ## 📈 Future Improvements
 
