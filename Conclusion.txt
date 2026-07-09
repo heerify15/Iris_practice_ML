@@ -1,10 +1,10 @@
 Model Performance Summary Report
 
 1. Overall Performance Comparison
-             Model	        Accuracy	Precision (Macro Avg)	Recall (Macro Avg)	F1-Score (Macro Avg)	Ranks
-(i)   Logistic Regression	 98.00%	               98.11%	             98.00%	              98.00%	          1
-(ii)  Naive Bayes	         96.00%	               96.00%	             96.00%	              96.00%	          2
-(iii) k-Nearest Neighbors (kNN)	 95.33%	               95.34%	             95.33%	              95.33%	          3
+             Model	            Accuracy	       Precision (Macro Avg)	Recall (Macro Avg)	F1-Score (Macro Avg)	Ranks
+(i)   Logistic Regression	       98.00%	               98.11%	             98.00%	              98.00%	            1
+(ii)  Naive Bayes	               96.00%	               96.00%	             96.00%	              96.00%	            2
+(iii) k-Nearest Neighbors (kNN)	 95.33%	               95.34%	             95.33%	              95.33%	            3
 
 2. Class-wise Performance Comparison
 (i)   Setosa
