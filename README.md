@@ -50,7 +50,7 @@ The project includes data preprocessing, feature scaling, hyperparameter tuning 
 
 ## 📁 Project Structure
 
-Below is the layout of the repository and the naming conventions used for the Iris classification project:
+Below is the repository layout:
 ``` text
 ├── Dataset/
 │   ├── iris.csv
